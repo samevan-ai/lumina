@@ -1,0 +1,161 @@
+<style>
+  /* ───── HERO DESKTOP STYLES ───── */
+  .hero {
+    background: #fff;
+    padding: 80px 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+  .hero__logo {
+    max-width: 220px;
+    margin-bottom: 50px;
+  }
+  .hero__headline {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1C1C1C;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  .hero__subhead {
+    font-size: 16px;
+    color: #444;
+    max-width: 700px;
+    margin: 0 auto 60px;
+    line-height: 1.5;
+  }
+  .feature-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    gap: 40px;
+  }
+  .feature-stack__image {
+    flex: 1 1 300px;
+  }
+  .feature-stack__image img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  .feature-stack__list {
+    flex: 1 1 400px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #444;
+    line-height: 1.8;
+    text-align: left;
+  }
+  .feature-stack__list span {
+    color: #23A455;
+    margin-right: 8px;
+  }
+  .hero__cta {
+    margin-top: 40px;
+  }
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+  }
+  .btn--primary {
+    background: linear-gradient(90deg, #D4AF37, #E6C14D);
+    color: #1C1C1C;
+    padding: 18px 48px;
+    font-size: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+  .btn--primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+  }
+.btn--primary:hover, .btn--primary:active {
+  transform: scale(1.02);
+  box-shadow: 0 16px 32px rgba(0,0,0,0.2);
+}
+
+  
+  /* ───── MOBILE TIGHTEN-UP ───── */
+  @media (max-width: 768px) {
+    /* 1) Kill the GHL section’s own padding */
+    .hero-wrapper {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+    }
+
+    /* 2) Compress inner Hero */
+    .hero {
+      padding: 20px 10px !important;
+    }
+    .hero__logo {
+      margin-bottom: 20px !important;
+    }
+    .hero__headline {
+      margin-bottom: 8px !important;
+      font-size: 20px !important;
+      line-height: 1.2 !important;
+    }
+    .hero__subhead {
+      margin-bottom: 12px !important;
+      font-size: 14px !important;
+      max-width: 95% !important;
+      line-height: 1.4 !important;
+    }
+    .feature-stack {
+      margin-bottom: 20px !important;
+      gap: 10px !important;
+    }
+    .hero__cta {
+      margin-top: 10px !important;
+    }
+    .hero__cta .btn--primary {
+      max-width: 100% !important;
+      padding: 10px 16px !important;
+      font-size: 14px !important;
+    }
+  }
+</style>
+
+<section class="hero">
+  <!-- Logo -->
+  <img class="hero__logo" src="https://storage.googleapis.com/msgsndr/VLX6SSjGcLn0q4UreOoc/media/68402e0d7504eea36c475868.png" alt="LuminaLabsAI Logo">
+
+  <!-- Headline -->
+  <h1 class="hero__headline">
+    You’re Likely Losing $500K+ in Sales You’ve Already Paid For<br>
+    Our AI Growth Engine Recovers It Automatically
+  </h1>
+
+  <!-- Subheadline -->
+  <p class="hero__subhead">
+    80% of home improvement leads die because they aren’t followed up fast enough. Our AI Growth Infrastructure responds instantly, books appointments 24/7, and recovers hidden revenue without adding staff.
+  </p>
+
+  <!-- Feature Row -->
+  <div class="feature-stack">
+    <div class="feature-stack__image">
+      <img src="https://storage.googleapis.com/msgsndr/VLX6SSjGcLn0q4UreOoc/media/684032797504ee2eaa477c85.png" alt="AI Robot">
+    </div>
+    <ul class="feature-stack__list">
+      <li><span>✔</span>AI contacts every lead within 60 seconds across phone, text, and chat</li>
+      <li><span>✔</span>Reactivates dormant leads automatically</li>
+      <li><span>✔</span>Fills your calendar with booked appointments</li>
+      <li><span>✔</span>Generates reviews and referrals strategically</li>
+      <li><span>✔</span>Reduces admin workload by 78%</li>
+      <li><span>✔</span>Produces ROI in 30 to 90 days</li>
+    </ul>
+  </div>
+
+  <!-- CTA Button -->
+  <div class="hero__cta">
+    <a href="#section-f0tNNGgUZO" class="btn btn--primary">
+      Book My Free AI Revenue Recovery Audit
+    </a>
+  </div>
+</section>
