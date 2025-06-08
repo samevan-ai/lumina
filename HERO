@@ -1,0 +1,177 @@
+<style>
+  .hero-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+    text-align: center;
+  }
+
+  .hero__logo {
+    max-width: 200px;
+    margin-bottom: 24px;
+  }
+
+  .hero__headline {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1C1C1C;
+    margin-bottom: 16px;
+    line-height: 1.2;
+  }
+
+  .hero__subhead {
+    font-size: 16px;
+    color: #444;
+    max-width: 800px;
+    margin: 0 auto 48px;
+    line-height: 1.5;
+  }
+
+  .feature-stack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  .feature-stack__image {
+    flex: 0 0 240px;
+    text-align: center;
+  }
+
+  .feature-stack__image img {
+    max-width: 180px;
+  }
+
+  .feature-stack__list {
+    flex: 0 0 500px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 15px;
+    color: #444;
+    line-height: 1.5;
+  }
+
+  .feature-stack__list li {
+    margin-bottom: 10px;
+  }
+
+  .feature-stack__list span {
+    color: #23A455;
+    margin-right: 8px;
+  }
+
+  .hero__cta {
+    margin-top: 12px;
+  }
+
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 14px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+
+  .btn--primary {
+    background: linear-gradient(135deg, #FFC600, #FFAA00);
+    color: #1C1C1C;
+    padding: 16px 36px;
+    font-size: 16px;
+  }
+
+  .btn--primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+  }
+
+  @media (max-width: 768px) {
+    .hero-wrapper {
+      padding: 30px 15px;
+    }
+
+    .hero__logo {
+      margin-bottom: 16px;
+      max-width: 160px;
+    }
+
+    .hero__headline {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .hero__subhead {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .feature-stack {
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .feature-stack__image img {
+      max-width: 120px;
+    }
+
+    .feature-stack__list {
+      font-size: 14px;
+    }
+
+    .feature-stack__list li {
+      margin-bottom: 6px;
+    }
+
+    .hero__cta {
+      margin-top: 10px;
+    }
+
+    .btn--primary {
+      padding: 14px 24px;
+      font-size: 15px;
+      width: 100%;
+      max-width: 320px;
+    }
+  }
+</style>
+
+<div class="hero-wrapper">
+  <img class="hero__logo" src="https://storage.googleapis.com/msgsndr/VLX6SSjGcLn0q4UreOoc/media/68402e0d7504eea36c475868.png" alt="LuminaLabsAI Logo">
+
+  <h1 class="hero__headline">
+    You’re Likely Losing $500K+ in Sales You’ve Already Paid For<br>
+    Our AI Growth Engine Recovers It Automatically
+  </h1>
+
+  <p class="hero__subhead">
+    80% of home improvement leads die because they aren’t followed up fast enough. Our AI Growth Infrastructure responds instantly, books appointments 24/7, and recovers hidden revenue without adding staff.
+  </p>
+
+  <div class="feature-stack">
+    <div class="feature-stack__image">
+      <img src="https://storage.googleapis.com/msgsndr/VLX6SSjGcLn0q4UreOoc/media/684032797504ee2eaa477c85.png" alt="AI Robot">
+    </div>
+    <ul class="feature-stack__list">
+      <li><span>✔</span>AI contacts every lead within 60 seconds across phone, text, and chat</li>
+      <li><span>✔</span>Reactivates dormant leads automatically</li>
+      <li><span>✔</span>Fills your calendar with booked appointments</li>
+      <li><span>✔</span>Generates reviews and referrals strategically</li>
+      <li><span>✔</span>Reduces admin workload by 78%</li>
+      <li><span>✔</span>Produces ROI in 30 to 90 days</li>
+    </ul>
+  </div>
+
+  <div class="hero__cta">
+    <a href="#section-f0tNNGgUZO" class="btn btn--primary">
+      Book My Free AI Revenue Recovery Audit
+    </a>
+  </div>
+</div>
